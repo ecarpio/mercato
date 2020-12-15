@@ -1,0 +1,48 @@
+.login-page {
+    background-image: url(../assets/images/sanfrancisco.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom -200px;
+    background-size: cover;
+    height:100%;
+}
+
+.login {
+    padding-top: 100px;
+    
+    img {width:100%; margin-bottom:50px;}
+    
+    .user-selection {
+        margin-bottom:30px;
+        text-transform: uppercase;
+
+            span{
+                
+                &:first-child {
+                    margin-right:10px;
+                }
+                &:last-child {
+                    margin-left:10px;
+                }
+            
+            }    
+
+            .active {
+                font-weight:700;
+            }
+    }
+
+        input {
+            width:100%;
+            margin-bottom:1rem;
+        }
+
+        .login-button {
+            width:100%;
+        }
+
+        .forgot-password {
+            font-weight:500;
+        }
+
+}
+

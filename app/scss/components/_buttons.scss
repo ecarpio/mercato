@@ -1,0 +1,23 @@
+button {
+    font-size:1rem;
+    padding:22px 30px ;
+    border:0px;
+    border-radius: 20px;
+    outline: none;
+    font-weight:500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &:focus {
+        outline:none;
+    }
+
+    &.btn-primary {
+        background-color:$primary;
+        color:$white;
+
+            &:hover {
+                background-color: $med-gray;
+            }
+    }
+}

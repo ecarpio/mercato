@@ -1,0 +1,29 @@
+$fa-font-path:        "../assets/webfonts/";
+
+
+@font-face {font-family: "Central Avenue Bold";
+    src: url("../../assets/webfonts/central-ave.eot"); /* IE9*/
+    src: url("../../assets/webfonts/central-ave.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../assets/webfonts/central-ave.woff2") format("woff2"), /* chrome、firefox */
+    url("../../assets/webfonts/central-ave.woff") format("woff"), /* chrome、firefox */
+    url("../../assets/webfonts/central-ave.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../../assets/webfonts/central-ave.svg#Central Avenue Bold") format("svg"); /* iOS 4.1- */
+  }
+
+@font-face {font-family: "Untitled Serif";
+    src: url("../../assets/webfonts/untitled-serif.eot"); /* IE9*/
+    src: url("../../assets/webfonts/untitled-serif.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../assets/webfonts/untitled-serif.woff2") format("woff2"), /* chrome、firefox */
+    url("../../assets/webfonts/untitled-serif.woff") format("woff"), /* chrome、firefox */
+    url("../../assets/webfonts/untitled-serif.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../../assets/webfonts/untitled-serif.svg Avenue Bold") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {font-family: "Sackers Gothic LT";
+    src: url("../../assets/webfonts/sacker-gothic-lt.eot"); /* IE9*/
+    src: url("../../assets/webfonts/sacker-gothic-lt.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../assets/webfonts/sacker-gothic-lt.woff2") format("woff2"), /* chrome、firefox */
+    url("../../assets/webfonts/sacker-gothic-lt.woff") format("woff"), /* chrome、firefox */
+    url("../../assets/webfonts/sacker-gothic-lt.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../../assets/webfonts/sacker-gothic-lt.svg Avenue Bold") format("svg"); /* iOS 4.1- */
+  }

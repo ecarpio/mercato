@@ -1,0 +1,19 @@
+
+// Inputs
+
+input {
+
+    border-radius: 20px;
+    background-color:$light-gray;
+    padding:22px;
+    border:0px;
+    font-size:1rem;
+
+    &[type=text]{
+        background-color:$light-gray;
+    }
+}
+
+
+// Buttons
+

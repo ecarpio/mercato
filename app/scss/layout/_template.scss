@@ -1,0 +1,98 @@
+header{
+    padding:7px 30px 11px;
+    background-color:$light-gray;
+        .logo-bug {
+            width:21px;
+            height:21px;
+        }
+
+        .cart {
+            margin-right:20px;
+        }
+}
+
+.hero {
+    width:100%;
+    position: relative;
+        h1 {
+            position: relative;
+            z-index: 10;
+            font-family:"Central Avenue Bold" !important;
+            text-align: center;
+            font-size:2.25rem;
+            margin-top:20px;
+        }
+
+        img {
+            position: absolute;
+            left:0;
+            right:0;
+            bottom:0;
+            top:0;
+            width: 100%;
+        }
+}
+.caption {
+    font-family: "Untitled Serif";
+    font-style: italic;
+    font-size:.625rem;
+    margin-top:5px;
+    margin-bottom:40px;
+}
+
+.section-title-divider {
+    background-color:$black;
+    border-top:3px solid $black;
+}
+
+.read-more-link {
+    font-family:"Central Avenue Bold" !important;
+    font-size:.8125rem;
+    color:$black;
+    text-align:right;
+
+        a {
+            color:$black;
+        }
+}
+
+.reading-list {
+    display: block;
+    font-family:"Sackers Gothic LT" !important;
+    font-size:.8125rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size:.375rem;
+    text-align:right;
+
+        span {
+            position: relative;
+            top:-3px;
+            font-size:.375rem;
+            margin-left:5px;
+        }
+}
+
+.explore-all {
+    font-family:"Sackers Gothic LT" !important;
+    font-size:.625rem;
+    margin-bottom:10px;
+    display: block;
+
+        i {
+            font-size:.625rem;
+            margin-left:20px;
+        }
+}
+
+.photo-recipe {
+    margin-top:30px;
+
+    img {
+        width:100%;
+        margin-bottom:10px;
+            &.long {
+                height:calc(100% - 10px);
+            }
+    }
+}
